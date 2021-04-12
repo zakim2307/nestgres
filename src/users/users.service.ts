@@ -26,11 +26,11 @@ export class UsersService {
         return this.users.find(user => user.username === username);
     }
 
-    async findUser() {
-        return await this.repo.find();
-    }
+    // async findUser() {
+    //     return await this.repo.find();
+    // }
 
-    async addUser() {
-        
-    }
+    // async addUser() {
+
+    // }
 }
